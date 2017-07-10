@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1499551113 source:e:\google dysk\projekty\cpp\sdg1025\main.cpp
+	<iostream>
+	"SDG1025.h"
+	<windows.h>
+
+1499542623 e:\google dysk\projekty\cpp\sdg1025\include\sdg1025.h
+	"visa.h"
+	<windows.h>
+	<string>
+
+1495007812 e:\google dysk\projekty\cpp\sdg1025\include\visa.h
+	<stdarg.h>
+	"visatype.h"
+
+1495007812 e:\google dysk\projekty\cpp\sdg1025\include\visatype.h
+
+1499542810 source:e:\google dysk\projekty\cpp\sdg1025\src\sdg1025.cpp
+	"SDG1025.h"
+	<sstream>
+	<stdio.h>
+	<iostream>
+	<cmath>
+	<iomanip>
+
