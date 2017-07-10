@@ -1,4 +1,4 @@
-#include "SDG1025.h"
+#include "../include/SDG1025.h"
 #include <sstream>
 #include <stdio.h>
 #include <iostream>
@@ -68,7 +68,7 @@ SDG1025::SDG1025(std::string miernikId) {
             PviSetAttribute_usb == NULL
             ) {
         //FreeLibrary(hUSBTMCLIB);
-        printf("%x,%x,%x,%x,%x,%x,%x,",PviOpenDefaultRM_usb, PviFindRsrc_usb, PviClose_usb, PviOpen_usb, PviWrite_usb, PviRead_usb, PviSetAttribute_usb);
+        //printf("%x,%x,%x,%x,%x,%x,%x,",PviOpenDefaultRM_usb, PviFindRsrc_usb, PviClose_usb, PviOpen_usb, PviWrite_usb, PviRead_usb, PviSetAttribute_usb);
         //hUSBTMCLIB = NULL;
         //MessageBox(NULL, "NIVISA for USBTMC library not ready.", "Multimeter device test", MB_OK);
         printf("NIVISA for USBTMC library not ready.");
